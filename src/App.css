@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+    background-image: url("https://th.bing.com/th/id/R.25f4a80a89bf3cc1b61d65031706f6f2?rik=pD5LB5aLoYRIeg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fBackgrounds-Download-Grey-Wallpaper-HD.png&ehk=%2fJX9ozgSR%2fuxylTqy%2fRX%2fyyASFZXZrBV08yzw8Sqomw%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 3px;
+    
+    text-align: center;
+    margin: auto;
+    width: 5%;
+    border-radius: 5px;
+}
+
+    button:hover {
+        background-color: red;
+        color: white;
+        border-radius: 2px;
+    }
+.li-item {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+    .li-item:nth-child(even) {
+        background-color: lightblue;
+        color: gray;
+    }
+
+    .li-item:nth-child(odd) {
+        background-color: lightcoral;
+        color: white;
+    }
+    .li-item:hover {
+        background-color: forestgreen;
+        color: white;
+    }
